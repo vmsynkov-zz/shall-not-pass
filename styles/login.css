@@ -1,0 +1,58 @@
+main {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.password-input {
+  display: block;
+  width: 200px;
+  padding: 5px;
+  margin-top: 50px;
+  font-size: 20px;
+  border: 1px solid #9E9E9E;
+}
+
+.password-input:focus {
+  outline: 0;
+  outline-offset: 0;
+  border: 1px solid #F57C00;
+  box-shadow: 0px 0px 5px 0px #757575;
+}
+
+.submit-button {
+  width: 200px;
+  margin-top: 15px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 10px 30px;
+  text-transform: uppercase;
+
+  color: #fff;
+  background-color: #795548;
+  border-radius: 0;
+  transition: all 0.5s ease-out;
+}
+
+.submit-button:hover {
+  color: #212121;
+  background-color: #F57C00;
+  border-radius: 8px;
+}
+
+.submit-button:focus {
+  outline: 0;
+}
+
+.window-controls {
+  position: absolute;
+  right: 0;
+}
+
+.close-button {
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px 15px 10px 15px;
+}
